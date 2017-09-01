@@ -1,0 +1,16 @@
+{
+  "name": "rndemo",
+  "version": "1.0.0",
+  "description": "This is my first RN-App!",
+  "main": "index.android.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "author": "yq",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.47.2"
+  }
+}
