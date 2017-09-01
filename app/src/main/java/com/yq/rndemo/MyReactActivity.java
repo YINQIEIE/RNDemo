@@ -5,7 +5,7 @@ import com.facebook.react.ReactActivity;
 public class MyReactActivity extends ReactActivity {
 
     @Override
-    public String getPackageName() {
-        return "rndemo";
+    protected String getMainComponentName() {
+        return "rnapp";
     }
 }
